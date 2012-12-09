@@ -1,0 +1,118 @@
+#Opzioni di indicizzazione
+Options Indexes FollowSymLinks
+IndexOptions +FancyIndexing 
+IndexOptions +VersionSort 
+IndexOptions +HTMLTable 
+IndexOptions +FoldersFirst 
+IndexOptions +IconsAreLinks 
+IndexOptions +IgnoreCase 
+IndexOptions +SuppressDescription 
+IndexOptions +SuppressHTMLPreamble 
+IndexOptions +IconWidth=16 
+IndexOptions +IconHeight=16 
+IndexOptions +NameWidth=*
+IndexOrderDefault Ascending Name
+
+<IfModule mod_autoindex.c>
+	#Pagine html
+	HeaderName /autoindex/header.html
+	ReadmeName /autoindex/footer.html
+	#Icone
+	DefaultIcon /autoindex/Icone/document.png
+	AddIcon /autoindex/Icone/indietro.png ..
+	AddIcon /autoindex/Icone/cartella.png ^^DIRECTORY^^
+	AddIcon /autoindex/Icone/txt.png README INSTALL
+	AddIcon /autoindex/Icone/exe.png .exe .app
+	AddIcon /autoindex/Icone/zip.png .zip
+	AddIcon /autoindex/Icone/tgz.png .tar .tgz .tbz .tbz2 .bundle 
+	AddIcon /autoindex/Icone/rar.png .rar 
+	AddIcon /autoindex/Icone/gz.png .z .gz
+	AddIcon /autoindex/Icone/7z.png .7z
+	AddIcon /autoindex/Icone/database.png .db .sqlite
+	AddIcon /autoindex/Icone/iso.png .iso .image
+	AddIcon /autoindex/Icone/document-access.png .ade .adp .adn .accdb .accdr .accdt .mdb .mda .mdn .mdt .mdw .mdf .mde .accde .mam .maq .mar .mat .maf
+	AddIcon /autoindex/Icone/bin.png .bin .hqx .uu
+	AddIcon /autoindex/Icone/html.png .html .htm .htx .htmls .dhtml .phtml .shtml .inc .ssi .c .cc .css .h .rb .js .rb .pl .py .sh .shar .csh .ksh .tcl .as
+	AddIcon /autoindex/Icone/jar.png .jar
+	AddIcon /autoindex/Icone/xls.png .xls .xla .xlb .xlc .xld .xlk .xll .xlm .xlt .xlv .xlw .xlsx .xlsm .xlsb .xltm .xlam .csv
+	AddIcon /autoindex/Icone/flv.png .flv 
+	AddIcon /autoindex/Icone/fla.png .fla 
+	AddIcon /autoindex/Icone/swf.png .swf .swt .swc
+	AddIcon /autoindex/Icone/ai.png .ai 
+	AddIcon /autoindex/Icone/eps.png .eps .epsf .epsi
+	AddIcon /autoindex/Icone/pdf.png .pdf
+	AddIcon /autoindex/Icone/ps.png .ps
+	AddIcon /autoindex/Icone/psd.png .psd
+	AddIcon /autoindex/Icone/document-php.png .php .phps .php5 .php3 .php4 .phtm
+	AddIcon /autoindex/Icone/pps.png .ppt .pptx .ppz .pot .pwz .ppa .pps .pow
+	AddIcon /autoindex/Icone/txt.png .txt .tex .dvi
+	AddIcon /autoindex/Icone/doc.png .docx .docm .doc .dotx .dotm .dot 
+	AddIcon /autoindex/Icone/rtf.png .rtf
+	AddIcon /autoindex/Icone/jpg.png .jpg .jpeg
+	AddIcon /autoindex/Icone/png.png .png .indd
+	AddIcon /autoindex/Icone/ink.png .ink
+	AddIcon /autoindex/Icone/log.png .log
+	AddIcon /autoindex/Icone/3gp.png .3gp
+	AddIcon /autoindex/Icone/ace.png .ace
+	AddIcon /autoindex/Icone/aif.png .aif
+	AddIcon /autoindex/Icone/aiff.png .aiff
+	AddIcon /autoindex/Icone/amr.png .amr
+	AddIcon /autoindex/Icone/asf.png .asf
+	AddIcon /autoindex/Icone/asx.png .asx
+	AddIcon /autoindex/Icone/bat.png .bat
+	AddIcon /autoindex/Icone/bmp.png .bmp
+	AddIcon /autoindex/Icone/bup.png .bup
+	AddIcon /autoindex/Icone/log.png .log
+	AddIcon /autoindex/Icone/cab.png .cab
+	AddIcon /autoindex/Icone/cbr.png .cbr
+	AddIcon /autoindex/Icone/cda.png .cda
+	AddIcon /autoindex/Icone/cdl.png .cdl
+	AddIcon /autoindex/Icone/cdr.png .cdr
+	AddIcon /autoindex/Icone/chm.png .chm
+	AddIcon /autoindex/Icone/dat.png .dat
+	AddIcon /autoindex/Icone/dvx.png .dvx
+	AddIcon /autoindex/Icone/dll.png .dll
+	AddIcon /autoindex/Icone/dmg.png .dmg
+	AddIcon /autoindex/Icone/dss.png .dss
+	AddIcon /autoindex/Icone/dvf.png .dvf
+	AddIcon /autoindex/Icone/dwg.png .dwg
+	AddIcon /autoindex/Icone/eml.png .eml
+	AddIcon /autoindex/Icone/esp.png .esp
+	AddIcon /autoindex/Icone/gif.png .gif
+	AddIcon /autoindex/Icone/hqx.png .hqx
+	AddIcon /autoindex/Icone/ifo.png .ifo
+	AddIcon /autoindex/Icone/m4a.png .m4a .m4r
+	AddIcon /autoindex/Icone/m4b.png .m4b
+	AddIcon /autoindex/Icone/m4p.png .m4p
+	AddIcon /autoindex/Icone/m4v.png .m4v
+	AddIcon /autoindex/Icone/mid.png .mid
+	AddIcon /autoindex/Icone/mov.png .mov
+	AddIcon /autoindex/Icone/mp2.png .mp2
+	AddIcon /autoindex/Icone/mp2.png .mp2
+	AddIcon /autoindex/Icone/mpg.png .mpg
+	AddIcon /autoindex/Icone/mpeg.png .mpeg
+	AddIcon /autoindex/Icone/msi.png .msi
+	AddIcon /autoindex/Icone/mswmm.png .mswmm
+	AddIcon /autoindex/Icone/ogg.png .ogg
+	AddIcon /autoindex/Icone/pst.png .pst
+	AddIcon /autoindex/Icone/ptb.png .ptb
+	AddIcon /autoindex/Icone/pub.png .pub
+	AddIcon /autoindex/Icone/qbb.png .qbb
+	AddIcon /autoindex/Icone/qbw.png .qbw
+	AddIcon /autoindex/Icone/qxd.png .qxd
+	AddIcon /autoindex/Icone/ram.png .ram
+	AddIcon /autoindex/Icone/rmvb.png .rmvb
+	AddIcon /autoindex/Icone/sea.png .sea
+	AddIcon /autoindex/Icone/ses.png .ses
+	AddIcon /autoindex/Icone/sit.png .sit
+	AddIcon /autoindex/Icone/sitx.png .sitx
+	AddIcon /autoindex/Icone/ss.png .ss
+	AddIcon /autoindex/Icone/thm.png .thm
+	AddIcon /autoindex/Icone/tif.png .tif .tiff
+	AddIcon /autoindex/Icone/tmp.png .tmp
+	AddIcon /autoindex/Icone/ttf.png .ttf .otf .woff .eot
+	AddIcon /autoindex/Icone/vcd.png .vcd
+	AddIcon /autoindex/Icone/vob.png .vob
+	AddIcon /autoindex/Icone/wps.png .wps
+	AddIcon /autoindex/Icone/xpi.png .xpi
+</IfModule>

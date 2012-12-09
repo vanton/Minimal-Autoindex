@@ -1,0 +1,14 @@
+ * Minimal Autoindex
+ *
+ * Tema per il directory listing di Apache.
+ *
+ * Le icone incluse appartengono a FatCow Web Hosting e a
+ * Yusuke Kamiyamane, distribuite sotto licenza CC attribution 3.0.
+ * http://creativecommons.org/licenses/by/3.0/legalcode
+ *
+ * Dual licensed under the MIT and GPL licenses:
+ * http://www.opensource.org/licenses/mit-license.php
+ * http://www.gnu.org/licenses/gpl.html
+ * 
+ * @author Michele Guerini Rocco aka Rnhmjoj
+ * @since 2012
