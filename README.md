@@ -9,7 +9,7 @@ Un tema minimale per il directory listing dei webserver Apache.
 Richiede che sia abilitato il modulo autoindex e la configurazione tramite virtual hosts o htaccess.
 
 ### Anteprima
-![screenshot](https://raw.github.com/Rnhmjoj/Minimal-Autoindex/master/Screenshot.png).
+![screenshot](https://raw.github.com/Rnhmjoj/Minimal-Autoindex/master/Screenshot.png)
 	
 ### Istruzioni
 Assicurasi che nel file httpd.conf sia abilitato il modulo Autoindex.
